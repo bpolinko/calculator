@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js" defer></script>
+</head>
+<body>
+    <div class="calculator">
+        <div class="screen">
+            <div id="display">80085</div>
+        </div>
+
+        <div class="keypad">
+
+            <div class="firstRow">
+                <button id="clear" class="single" onclick="clickClear()" style="background-color: lightblue;">C</button>
+                <button id="plusminus" class="single" onclick="clickPlusMinus()" style="background-color: lightblue;">+/-</button>
+                <button id="percent" class="single" onclick="clickPercent()" style="background-color: lightblue;">%</button>
+                <button id="divide" class="single" onclick="clickDivide()" style="background-color: orange;">/</button>
+            </div>
+            <div class="secondRow">
+                <button id="seven" class="single" onclick="clickSeven()" style="background-color: lightgreen;">7</button>
+                <button id="eight" class="single" onclick="clickEight()" style="background-color: lightgreen;">8</button>
+                <button id="nine" class="single" onclick="clickNine()" style="background-color: lightgreen;">9</button>
+                <button id="multiply" class="single" onclick="clickMultiply()" style="background-color: orange;">*</button>
+            </div>
+            <div class="thirdRow">
+                <button id="four" class="single" onclick="clickFour()" style="background-color: lightgreen;">4</button>
+                <button id="five" class="single" onclick="clickFive()" style="background-color: lightgreen;">5</button>
+                <button id="six" class="single" onclick="clickSix()" style="background-color: lightgreen;">6</button>
+                <button id="minus" class="single" onclick="clickMinus()" style="background-color: orange;" >-</button>
+            </div>
+            <div class="fourthRow">
+                <button id="one" class="single" onclick="clickOne()" style="background-color: lightgreen;">1</button>
+                <button id="two" class="single" onclick="clickTwo()" style="background-color: lightgreen;">2</button>
+                <button id="three" class="single" onclick="clickThree()" style="background-color: lightgreen;">3</button>
+                <button id="plus" class="single" onclick="clickPlus()" style="background-color: orange;" >+</button>
+             </div>
+             <div class="fifthRow">
+                <button id="zero" class="double" onclick="clickZero()" style="background-color: lightgreen;">0</button>
+                <button id="decimal" class="single" onclick="clickDecimal()" style="background-color: lightgreen;">.</button>
+                <button id="equals" class="single" onclick="clickEquals()" style="background-color: orange;" >=</button>
+             </div>  
+            
+        </div>
+
+
+    </div>
+</body>
+</html>
+
+<!-- onclick="clickRock()" -->
+
+<!-- 
+
+const black = document.querySelector("#black");
+
+black.addEventListener("click" , swapColors);
+
+-->
