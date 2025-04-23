@@ -367,11 +367,4 @@ function clickClear() {
 
 
 
-        // 1. make it so if you type a number after getting result, it clears
-        // 2. make it work so that if you say 2 * 4 * 2, the second * would act like an equal sign, get the result, and then
-        // be ready to keep doing math
-        // Check 3. make it so only 1 decimal can be put in at a time
-        // 4. maybe make it so the operator is highlighted instead of shown
-        // 5. add button pressing affect 
-        // Check 6. make it so pressing the operator multiple times in a row has no affect like 8 + + 8 = 16, but currently its NaN
-
+        
